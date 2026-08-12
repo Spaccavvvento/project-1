@@ -95,3 +95,22 @@ if has_pet:
     print ("you have a pet") #i need to stop using vscode autocmomplete
 else:
     print ("you dont have a pet") 
+
+
+
+#logical operatprs = allow us to evaluate multiple conditions at once
+#     or = True if at least one condition is true
+#     and = True if all conditions are true 
+#       not = True if the condition is false
+
+
+heat = 25
+is_raining = False
+if heat > 30 or heat < 10  or  is_raining:  
+    print ("the weather is bad") #this will only run if one of the conditions is met
+else:
+    print ("the weather is good")
+
+
+if heat >= 35 and is_raining: 
+    print ("hot and wet ") #this will only run if both conditions are met
